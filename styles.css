@@ -1,0 +1,398 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    transition: all 0.8s;
+}
+
+.General{
+    min-width: 800px;
+    min-height: 100vh;
+}
+
+/* General */ 
+
+.General{
+    min-width: 800px;
+}
+
+/* Header */
+
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #252525;
+    padding: 8px;
+}
+
+.IconDivHeader{
+    background-color: gray;
+    padding: 8px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.IconHeader{
+    color: white;
+    font-size: 30px;
+}
+
+.DivHeader{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.TitleHeader{
+    color: white;
+    font-weight: 600;
+}
+
+.PHeader{
+    color: #9e9e9e;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+/* Section 1 */
+
+.Section1{
+    height: 85vh;
+    background-image: url(./imgs/Background.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+    padding-bottom: 90px;
+}
+
+.MainSec1{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 576px;
+}
+
+.TitleSec1{
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.TextSec1{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.ButtonSec1{
+    width: 100px;
+    height: 39px;
+    color: white;
+    background-color: #252525;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 900;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.ButtonSec1:hover{
+    opacity: 1;
+    transform: translateY(-5px);
+}
+.ButtonSec1:active{
+    opacity: 0.7;
+    transform: translateY(5px);
+}
+
+/* Section 2 */ 
+
+.Section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 350px 70px 90px;
+    position: relative;
+    background-color: #2c2c2c;
+}
+
+.Skill1Sec2{
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    top: -65px;
+}
+
+.DivSkilss{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    background-color: #252525;
+    border-radius: 7px;
+    padding: 75px 30px 50px 30px;
+    width: 340px;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+}
+
+.DicIconSkill1{
+    height: 75px;
+    width: 75px;
+    background-color: white;
+    border-radius: 50px;
+    position: absolute;
+    top: -20px;
+}
+
+.DivIconSkill{
+    background-color: #252525;
+    height: 70px;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 8px;
+}
+
+.IconSkill{
+    max-width: 100%;
+}
+
+.TitleSkill{
+    color: white;
+    font-size: 25px;
+}
+
+.DescriptionSkill{
+    color: #9a9a9a;
+    text-align: center;
+    font-size: 15px;
+}
+
+/*ServicesSec 2 */
+
+.Services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TitleServices{
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.PServices{
+    margin-bottom: 50px;
+    color: gray;
+}
+
+.ContainerServices{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+}
+
+.DivService{
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    width: 300px;
+}
+
+.IconDivService{
+    background-color: #f1eed7;
+    padding: 8px;
+}
+
+.IconService{
+    font-size: 35px;
+}
+
+.DivTextsService{}
+
+.PTitleService{
+    font-weight: 800;
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: white;
+}
+
+.PTextService{
+    font-weight: 400;
+    color: #919191;
+    margin-bottom: 10px;
+}
+
+.LinkService{
+    color: #e0e0e0;
+    cursor: pointer;
+}
+
+/* Section 3 */
+
+.Section3{
+
+}
+
+.MainSec3{}
+
+.Sec3Skills{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #393939;
+    background-image: url(./imgs/Background2.png);
+    background-size: cover;
+    padding: 70px 80px;
+}
+
+.h1TitleSkill{
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.ContainerSkills{
+    display: flex;
+    gap: 50px;
+}
+
+.DivSkill{
+    border: solid 5px #d6b16f;
+    width: 235px;
+    padding: 15px 15px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SkillIcon{
+    font-size: 45px;
+    color: #d6b16f;
+}
+
+.SkillsTitle{
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 8px;
+}
+
+.SkillText{
+    color: #999999;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Section 4 */
+
+.Section4{
+    display: flex;
+    padding: 80px 0;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: rgb(31, 31, 81);
+    background-image: url(./imgs/Background4.png);
+    background-size: cover;
+    gap: 50px;
+}
+
+.Main1Sec4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Sec4Name{
+    background: transparent;
+    height: 40px;
+    width: 600px;
+    padding-left: 10px;
+    color: white;
+    border-bottom: solid 1px #4f4f4f;
+}
+
+.InputsSec4{}
+
+.Sec4Email{
+    background: transparent;
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+    color: white;
+    border-bottom: solid 1px #4f4f4f;
+}
+
+.Sec4Tel{
+    background: transparent;
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+    color: white;
+    border-bottom: solid 1px #4f4f4f;
+}
+
+.Sec4Message{
+    background: transparent;
+    width: 600px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+    border-bottom: solid 1px #4f4f4f;
+    height: 300px;
+    resize: none;
+}
+
+.Sec4Button{
+    height: 40px;
+    width: 100px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.Sec4Button:hover{
+    opacity: 1;
+    transform: translateY(-5px);
+}
+.Sec4Button:active{
+    opacity: 0.7;
+    transform: translateY(5px);
+}
+
+.Main2Sec4{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.DivTextsSec4{
+    display: flex;
+    flex-direction: column;
+    width: 335px;
+}
+
+.H1Sec4{
+    color: white;
+    font-size: 32px;
+}
+
+.PSec4{
+    color: #a3a3a3;
+}
